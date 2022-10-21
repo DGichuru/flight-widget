@@ -1,7 +1,14 @@
-// const App = () => {
-//   return (
+import Table from "./components/table";
 
-//   );
-// }
+const App = () => {
+  return (
+    <div className="departures">
+        <header>DEPARTURES</header>
+        <Table/>
 
-// export default App;
+    </div>
+
+  );
+}
+
+export default App;

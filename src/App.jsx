@@ -1,7 +1,8 @@
-import Table from "./components/table";
+import Table from "./components/Table";
 
 const App = () => {
   return (
+
     <div className="departures">
         <header>DEPARTURES</header>
         <Table/>
